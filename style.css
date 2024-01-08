@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
 }
 .header{
-    background-color: #FCE9C9;
+    background-color: #F0DDC6;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -32,6 +32,7 @@ body{
 
 .section .text{
     display: flex;
+    padding-bottom: 36px;
     flex-direction: column;
     margin-left: 24px;
     width: 350px;
@@ -50,7 +51,7 @@ ul{
 .section{
     display: flex;
     justify-content: center;
-    background-color: #FCE9C9;
+    background-color: #F0DDC6;
 }
 .section img{
     width: 400px;
@@ -60,19 +61,36 @@ ul{
     display: flex;
     padding-top: 32px;
     flex-direction: column;
+    color: #532b1e;
     /* justify-content: space-evenly; */
-    background-color: #FCE9C9;
+    background-color: #F0DDC6;
     align-items: center;
 }
-.card-container{
+
+.figures .title{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.figure-container{
     display: flex;
     gap:16px;
     justify-content: space-around;
 }
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 24px;
+}
 
+.card-container .text{
+    font-size: 15px;
+}
 #card1,#card2,#card3,#card4{
     border-radius: 25px;
-    border: 2px solid #532b1e;
+    border: 3px solid #58372c;
     background-color: red;
     /*background: url(images/honey-jar.png);*/
     background-position: left top;
@@ -82,17 +100,40 @@ ul{
     height: 150px;
 }
 #card1{
-    border-radius: 25px;
-    background-color: red;
-    background: url(images/honey-jar.png);
-    background-position: left top;
-    background-repeat: repeat;
-       
+    background: url(images/honey-jar.png);   
+}
+#card2{
+    background: url(images/honey.png);   
+}
+#card3{
+    background: url(images/honey-jar2.png);   
+}
+#card4{
+    background: url(images/bees.png);   
 }
 
-
 .quote{
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-top: 64px;
+    margin-bottom: 64px;
+}
+
+.quote .title{
+    color: #532b1e;
+    font-weight: 100;
+    font-size: 48px;
+    margin-left: 64px;
+}
+
+.quote .text{
+    flex-grow: 0;
+    color: #532b1e;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 600px;
 }
 .cta{
     background-color: blue;
