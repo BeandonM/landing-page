@@ -103,7 +103,7 @@ ul{
     background: url(images/honey-jar.png);   
 }
 #card2{
-    background: url(images/honey.png);   
+    background: url(images/honey-tea.png);   
 }
 #card3{
     background: url(images/honey-jar2.png);   
@@ -136,7 +136,19 @@ ul{
     margin-left: 600px;
 }
 .cta{
+    display: flex;
+    justify-content: center;
     background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#cta-card{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 700px;
+    height: 100px;    
 }
 .footer{
     background-color: sienna;
