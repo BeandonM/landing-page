@@ -57,6 +57,18 @@ ul{
     width: 400px;
     height: 200px;
 }
+
+#section-img{
+    border-radius: 25px;
+    border: 2px solid #58372c;
+    background-color: red;
+    background: url(images/bee-keeper.png);
+    background-position: left top;
+    background-repeat: repeat;
+
+    width: 400px;
+    height: 200px;
+}   
 .figures{
     display: flex;
     padding-top: 32px;
@@ -138,20 +150,62 @@ ul{
 .cta{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: white;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 32px;
 }
 
+.cta .text-container{
+    padding-left: 50px;
+    width: 440px;
+}
+.cta .text-container .title{
+    color: white;
+    font-weight: bold;
+}
+
+.cta .text-container .text{
+    color: white;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container button{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 32px;
+    border: 2px solid white;
+    background-color: #532b1e;
+    color: white;
+}
+
+.button-container button:hover {
+    background-color: white;
+    color: #532b1e;
+  }
+
 #cta-card{
+    display: flex;
+    justify-content: space-between;
     border-radius: 25px;
-    background: #73AD21;
+    background: #532b1e;;
     padding: 20px; 
     width: 700px;
-    height: 100px;    
+    height: 80px;
 }
 .footer{
-    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    background-color: #F0DDC6;
+    padding: 32px;
+}
+
+.footer .title{
+    font-weight: bold;
+    color: #532b1e;
 }
 ul{
     list-style-type: none;
@@ -160,14 +214,20 @@ ul{
     padding-right: 20px;
 }
 
-button {
-    border: none;
+.buttons button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #DBAD35;
     border-radius: 8px;
     font-weight: bold;
     padding: 8px 32px;
-    background-color: #DBAD35;
+    background-color: #F0DDC6;
     color: #532b1e;
-}  
+}
+
+.buttons button:hover {
+    background-color: #DBAD35;
+  }
 a {
     color: #532b1e;
     font-weight: bold;
